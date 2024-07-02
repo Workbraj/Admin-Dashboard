@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: #2e375a;
+  padding: 10px;
+  border-radius: 10px;
+  width: max-content;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  color: var(--text);
+}
+
+.input:focus {
+  outline: none;
+}
