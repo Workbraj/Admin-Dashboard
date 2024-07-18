@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  width: 375px;
+  width: 60vh;
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@ body {
 
 .button {
   background-color: rgb(187, 11, 187);
-  border: none;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
   border-radius: 8px;
   color: white;
   padding: 0.75rem 1.5rem;
@@ -51,6 +51,7 @@ body {
 .button:hover,
 .name:hover {
   background: rgba(10, 9, 9, 0.1);
+  border: 1.5px solid transparent;
   border-radius: 8px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(4px);
@@ -62,18 +63,14 @@ body {
 }
 
 .name {
-  background-color: rgb(187, 11, 187);
-  border: none;
+  background-color: #bb0bbb;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;
   color: white;
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 0.75rem 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.4s ease-in-out;
   font-size: 1.5rem;
   font-weight: 500;
 }
-
-/* .name:hover {
-
-} */

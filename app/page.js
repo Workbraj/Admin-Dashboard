@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <div className=" h-screen w-screen items-center flex justify-center flex-col gap-10">
         <div className="container  rounded-lg text-white ">
-          <h1 className="lh flex welcome items-center mb-10  text-center">
+          <h1 className="lh flex flex-col  welcome items-center mb-10  text-center">
             Welcome to my App
           </h1>
           <div className="flex flex-col gap-2 text-center">
