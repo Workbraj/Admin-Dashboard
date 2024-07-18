@@ -34,9 +34,9 @@ const Login = () => {
       credentials.username === login.username &&
       credentials.password === login.password
     ) {
-      setLoading(true); // Start loading only when credentials are correct
+      setLoading(true);
       console.log("Login successful");
-      await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulate a delay
+      await new Promise((resolve) => setTimeout(resolve, 1000));
       router.push("/dashboard");
       setCredentials({
         username: "",
@@ -51,6 +51,7 @@ const Login = () => {
     <div className={styles.container}>
       <form action="" className={styles.form} onSubmit={handleSubmit}>
         <h1>Login</h1>
+        {error && <p className="text-red-600 font-semibold">{error}</p>}
         <input
           type="text"
           placeholder="Username"
@@ -65,7 +66,6 @@ const Login = () => {
           value={credentials.password}
           onChange={handleChange}
         />
-        {error && <p className="text-red-600">{error}</p>}
         <button type="submit" disabled={loading}>
           {loading ? "Loading..." : "Login"}
         </button>
