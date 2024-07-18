@@ -2,14 +2,15 @@
 
 import { useState } from "react";
 import styles from "@app/ui/login/login.module.css";
-import { useRouter } from "next/navigation"; // Correct import for useRouter
+import { useRouter } from "next/navigation";
 
 const Login = () => {
   const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   const login = {
-    username: "admin",
-    password: "nextjs",
+    username: process.env.NEXT_PUBLIC_LOGIN_USERNAME,
+    password: process.env.NEXT_PUBLIC_LOGIN_PASSWORD,
   };
 
   const [credentials, setCredentials] = useState({
@@ -26,16 +27,16 @@ const Login = () => {
   };
 
   const router = useRouter();
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const enteredCredentials = [credentials.username, credentials.password];
-    console.log("Entered Credentials: ", enteredCredentials);
 
     if (
       credentials.username === login.username &&
       credentials.password === login.password
     ) {
+      setLoading(true); // Start loading only when credentials are correct
       console.log("Login successful");
+      await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulate a delay
       router.push("/dashboard");
       setCredentials({
         username: "",
@@ -50,7 +51,6 @@ const Login = () => {
     <div className={styles.container}>
       <form action="" className={styles.form} onSubmit={handleSubmit}>
         <h1>Login</h1>
-        {error && <p className="text-black-600">{error}</p>}
         <input
           type="text"
           placeholder="Username"
@@ -65,9 +65,16 @@ const Login = () => {
           value={credentials.password}
           onChange={handleChange}
         />
-
-        <button type="submit">Login</button>
+        {error && <p className="text-red-600">{error}</p>}
+        <button type="submit" disabled={loading}>
+          {loading ? "Loading..." : "Login"}
+        </button>
       </form>
+      {loading && (
+        <div className="spinner-overlay">
+          <div className="spinner"></div>
+        </div>
+      )}
     </div>
   );
 };
