@@ -5,8 +5,10 @@
 @tailwind utilities;
 
 :root {
-  /* --bg: white;
-  --bg-soft: rgb(216, 210, 210); */
+  /* --bg: rgb(247, 230, 230);
+  --bgSoft: #f5d3f0;
+  --text: black;
+  --textSoft: #4e4e4e; */
   --bg: #151c2c;
   --bgSoft: #182237;
   --text: white;

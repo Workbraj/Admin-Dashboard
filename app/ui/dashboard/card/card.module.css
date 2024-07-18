@@ -9,6 +9,7 @@
 }
 .container:hover {
   background-color: #2e374a;
+  /* background: linear-gradient(to bottom right, #f5c3ee, #e89fd9); */
 }
 
 .text {
