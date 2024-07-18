@@ -9,7 +9,7 @@ const Home = () => {
             Welcome to my App
           </h1>{" "}
           <div className="flex gap-10 flex-col">
-            <a className="button flex justify-center" href="/dashboard">
+            <a className="button flex justify-center dashboard" href="/">
               Dashboard
             </a>
             <a className="button  flex justify-center" href="/login">
