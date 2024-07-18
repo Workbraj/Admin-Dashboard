@@ -29,7 +29,7 @@ const ProductsPage = () => {
             <td>
               <div className={styles.user}>
                 <Image
-                  src="/noavatar.png"
+                  src="/noproduct.jpg"
                   alt=""
                   height={40}
                   width={40}
