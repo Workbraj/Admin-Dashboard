@@ -579,6 +579,12 @@ video {
 .border{
   border-width: 1px;
 }
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+.pb-3{
+  padding-bottom: 0.75rem;
+}
 .text-center{
   text-align: center;
 }
