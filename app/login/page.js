@@ -58,6 +58,7 @@ const Login = () => {
           name="username"
           value={credentials.username}
           onChange={handleChange}
+          autoComplete="username"
         />
         <input
           type="password"

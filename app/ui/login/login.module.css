@@ -16,7 +16,6 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: var(--bgSoft);
   padding: 37.5px;
   border-radius: 7.5px;
   justify-content: center;
