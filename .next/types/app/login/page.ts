@@ -1,4 +1,4 @@
-// File: E:\raj.code\NEXT JS\Ecommerce\admin\Admin-Dashboard\app\login\page.js
+// File: C:\Users\indesign\Codes\Next JS\GitHub\Admin-Dashboard\app\login\page.js
 import * as entry from '../../../../app/login/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
