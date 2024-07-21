@@ -11,6 +11,10 @@ const Layout = ({ children }) => {
       <div className={Styles.content}>
         <Navbar />
         {children}
+        <div className={Styles.rights}>
+          <p>2024 Raj. All Rights Reserved</p>
+          <p>Developed by Bishawa Raj Bhujel</p>
+        </div>
       </div>
     </div>
   );

@@ -33,3 +33,15 @@
 .side {
   flex: 1;
 }
+
+.rights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.rights p {
+  font-size: 14px;
+  font-weight: 400;
+}

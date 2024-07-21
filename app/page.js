@@ -22,8 +22,8 @@ const Home = () => {
           <p className="font-semibold text-white connect">Get connected:</p>
           <a href="mailto:work.brajbhujel@gmail.com" className="name">
             <span className=" ">
-              <span class="name__horizontal"></span>
-              <span class="name__vertical"></span>
+              <span className="name__horizontal"></span>
+              <span className="name__vertical"></span>
               Bishawa Raj Bhujel
             </span>
           </a>

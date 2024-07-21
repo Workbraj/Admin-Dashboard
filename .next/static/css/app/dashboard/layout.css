@@ -160,3 +160,15 @@
   flex: 1;
 }
 
+.dashboard_rights__lSI9A {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.dashboard_rights__lSI9A p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
