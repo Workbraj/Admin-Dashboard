@@ -43,5 +43,9 @@
 
 .rights p {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
+}
+
+.rights a {
+  color: teal;
 }

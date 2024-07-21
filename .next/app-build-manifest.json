@@ -29,6 +29,18 @@
       "static/chunks/main-app.js",
       "static/css/app/dashboard/page.css",
       "static/chunks/app/dashboard/page.js"
+    ],
+    "/dashboard/users/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/users/[id]/page.css",
+      "static/chunks/app/dashboard/users/[id]/page.js"
+    ],
+    "/dashboard/users/add/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/users/add/page.css",
+      "static/chunks/app/dashboard/users/add/page.js"
     ]
   }
 }

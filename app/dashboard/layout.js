@@ -13,7 +13,10 @@ const Layout = ({ children }) => {
         {children}
         <div className={Styles.rights}>
           <p>2024 Raj. All Rights Reserved</p>
-          <p>Developed by Bishawa Raj Bhujel</p>
+          <p>
+            Developed by
+            <a href="mailto:work.brajbhujel@gmail.com"> Bishawa Raj Bhujel</a>
+          </p>
         </div>
       </div>
     </div>
