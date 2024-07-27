@@ -1,8 +1,9 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/login/page": "app/login/page.js",
+  "/api/products/addProduct": "app/api/products/addProduct.js",
   "/page": "app/page.js",
+  "/api/products/[id]/route": "app/api/products/[id]/route.js",
+  "/dashboard/products/add/page": "app/dashboard/products/add/page.js",
   "/dashboard/page": "app/dashboard/page.js",
-  "/dashboard/users/page": "app/dashboard/users/page.js",
   "/dashboard/products/page": "app/dashboard/products/page.js"
 }
