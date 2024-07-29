@@ -36,16 +36,16 @@
 
 .rights {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding: 20px;
 }
 
 .rights p {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .rights a {
   color: teal;
+  font-weight: 600;
 }

@@ -162,17 +162,17 @@
 
 .dashboard_rights__lSI9A {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding: 20px;
 }
 
 .dashboard_rights__lSI9A p {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .dashboard_rights__lSI9A a {
   color: teal;
+  font-weight: 600;
 }
 

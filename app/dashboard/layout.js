@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <Navbar />
         {children}
         <div className={Styles.rights}>
-          <p>2024 Raj. All Rights Reserved</p>
+          <p>2024 Furniro. All Rights Reserved</p>
           <p>
             Developed by
             <a href="mailto:work.brajbhujel@gmail.com"> Bishawa Raj Bhujel</a>

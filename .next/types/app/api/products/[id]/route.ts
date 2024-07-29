@@ -1,4 +1,4 @@
-// File: E:\raj.code\NEXT JS\Ecommerce\admin\Admin-Dashboard\app\api\products\[id]\route.js
+// File: C:\Users\indesign\Codes\Next JS\GitHub\Admin-Dashboard\app\api\products\[id]\route.js
 import * as entry from '../../../../../../app/api/products/[id]/route.js'
 import type { NextRequest } from 'next/server.js'
 
