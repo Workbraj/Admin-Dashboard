@@ -1,4 +1,3 @@
-"use client";
 import "./ui/globals.css";
 
 export default function RootLayout({ children }) {
